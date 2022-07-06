@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <h1 id="header">1001 motivos para voltar para mim</h1>
+    <form name="frm_motivos" id="frm_motivos" action="#">
+      <label for="txt_mensagem">Mensagem:</label>
+      <br>
+      <textarea
+        name="txt_mensagem"
+        id="txt_mensagem"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br>
+      <input type="submit" id="btn_enviar" name="btn_enviar" value="Enviar" />
+      <p class="msg-success hide">Mensagem registrada com sucesso!</p>
+    </form>
+    <table id="tb_dados">
+      <thead>
+        <tr>
+          <th>#ID</th>
+          <th>Mensagem</th>
+          <th>Data</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">Sem dados para serem mostrados!</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="scripts/mensagemStorage.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
