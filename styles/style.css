@@ -1,0 +1,29 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #002136;
+    background-color: #9ed3f7;
+    /* height: 100vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+  table#tb_dados, table#tb_dados td, table#tb_dados th {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+
+  /* Mensagem de sucesso */
+  .hide {
+    display: none;
+  }
+  .msg-success {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #68fa71;
+    border-radius: 5px;
+    background-color: #c5fbc8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
