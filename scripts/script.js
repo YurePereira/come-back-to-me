@@ -1,11 +1,4 @@
 
-//Guardar dados no banco
-function enviarMensagem(mensagem) {
-
-  mensagemStorage.add(mensagem);
-
-}
-
 const btnEnviar = document.querySelector('#btn_enviar');
 
 btnEnviar.addEventListener('click', function(event) {
@@ -18,7 +11,13 @@ btnEnviar.addEventListener('click', function(event) {
   var mensagem = frmData.get('txt_mensagem');
   frm.reset();
   
-  enviarMensagem(mensagem);
+  let newRegister = mensagemStorage.add(mensagem);
+
+  if (newRegister.length > 0) {
+
+    
+
+  }
   
 });
 

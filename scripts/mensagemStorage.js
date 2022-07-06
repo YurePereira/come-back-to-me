@@ -40,7 +40,7 @@ var mensagemStorage = (function() {
         let strStorageMessage = JSON.stringify(storageMessage);
         localStorage.setItem('messages', strStorageMessage);
 
-        return newItem;
+        return [newItem];
 
     }
 
